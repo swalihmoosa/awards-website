@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'gorditabold';
+    src: url('../src/components/font/gordita_bold-webfont.woff2') format('woff2'),
+         url('../src/components/font/gordita_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'gorditaregular';
+    src: url('../src/components/font/gordita_regular-webfont.woff2') format('woff2'),
+         url('../src/components/font/gordita_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	font-family: 'gorditaregular';
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+a{
+	color:#5B5A5D;
+	font-weight:700;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+	color: #fff;
+}
+img{
+	width: 100%;
+	display: block;
+}
+.formsec{
+	background: url("../src/components/images/Footer\ -\ image.png") no-repeat;
+	background-position: center;
+}
+ul.active{
+	position: fixed;
+    top: 25%;
+    right: 10%;
+}
+div.active{
+	position: fixed;
+	top: 6%;
+    right: 44%;
+}
